@@ -4,11 +4,11 @@ The purpose of this repo is to show how to use different elements of the wasi-cr
 
 ## Prerequisites
 
-Rust (nightly)
-[cargo wasi](https://github.com/bytecodealliance/cargo-wasi): `cargo install cargo-wasi`
-Wasi target support: `rustup target add wasm32-wasi`
-[Wasmtime](https://github.com/bytecodealliance/wasmtime)
-Compile Wasmtime from source: `cargo build --release --features wasi-crypto` to include the optional wasi-crypto feature.
+- Rust (nightly)
+- [cargo wasi](https://github.com/bytecodealliance/cargo-wasi): `cargo install cargo-wasi`
+- Wasi target support: `rustup target add wasm32-wasi`
+- [Wasmtime](https://github.com/bytecodealliance/wasmtime)
+- Compile Wasmtime from source: `cargo build --release --features wasi-crypto` to include the optional wasi-crypto feature.
 
 ## Compiling
 
