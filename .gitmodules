@@ -1,3 +1,0 @@
-[submodule "wasi-crypto"]
-	path = wasi-crypto
-	url = https://github.com/WebAssembly/wasi-crypto

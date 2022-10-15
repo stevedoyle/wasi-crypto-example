@@ -6,4 +6,4 @@ edition = "2021"
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
-wasi-crypto-guest = { path = "../wasi-crypto/implementations/bindings/rust" }
+wasi-crypto-guest = { git = "https://github.com/WebAssembly/wasi-crypto" }
